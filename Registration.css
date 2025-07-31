@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 2px;
+    background-color: cadetblue;
+}
+nav .link {
+    position: fixed;
+    background-color: cadetblue;
+    width: 1120px;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    list-style-type: none;
+    gap: 70px;
+}
+link { 
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.form-container {
+    background-color: cornsilk;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    line-height: 40px;
+    margin-bottom: 2opx;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+input ,select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkslategray;
+}
