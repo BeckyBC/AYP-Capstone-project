@@ -1,12 +1,11 @@
 body {
     font-family: sans-serif;
-    background-color: cornsilk;
+    background-color: floralwhite;
     margin: 0;
     padding: 0;
 }       
 a:link {
     text-decoration: none;
-
 }
 .nav {
     display: flex;
@@ -18,7 +17,7 @@ a:link {
 nav .link {
     position: fixed;
     background-color: cadetblue;
-    width: 1120px;
+    width: 1500px;
     justify-content: center;
     display: flex;
     padding: 16px;
@@ -28,7 +27,8 @@ nav .link {
 .link { 
     display: flex;
     list-style: none;
-    gap: 70px;
+    gap: 100px;
+    font-size: larger;
 }
 main {
     text-align: center;
@@ -36,36 +36,103 @@ main {
     background-size: cover ;
     background-position: center;
     background-attachment: scroll;
-    width: 1100px;
-    height: 900px;
+    width: 1300px;
+    height: 800px;
     margin-top: 50px;
     padding-right: 100px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 .section2 {
     margin-top: 730px;
-    margin-bottom: 50px;
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: bisque;
-    width: 1200px;
-    border: 5px solid white;
+    width: 1400px;
 }
 .section3 {
     background-image: url("./img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    width: 1100px;
-    height: 900px;
-    margin-top: 50px;
+    width: 1300px;
+    height: 1000px;
+    margin-top: 5px;
     padding-right: 100px;
 }
-.container >.cont {
-    background-color: floralwhite;
+.class >.cont {
+    background-color: antiquewhite;
     margin: 60px;
-    border-radius: 20px 50px;
+    border-radius: 10px 20px;
     display: inline-block;
+    flex-direction: column;
+    justify-content: center;
 }
+   /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: cornsilk;
+    width: 1500px;*/ 
+
+    
+    .section5
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+.container2 {  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1500px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.Cont 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input ,select, textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.submit {
+    width:50%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}    
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.whatsapp-link img {
+    width: 50px;
+} 
+footer {
+
+}
+
+

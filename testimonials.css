@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: floralwhite;
+    padding: 0;
+}
+a:link {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 2px;
+    background-color: cadetblue ;
+}
+nav .link {
+    position: fixed;
+    background-color: cadetblue;
+    width: 1250px;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    list-style-type: none;
+    gap: 70px;
+}
+.link { 
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: larger;
+}
+header h1 {
+    margin: 0;
+}
+#testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    gap: 20px;
+    padding: 30px;
+}
+.testimonial {
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.testimonial:hover {
+    transform: t;
+}
+.message {
+    font-style: italic;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

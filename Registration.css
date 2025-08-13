@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: cornsilk;
+    background-color: floralwhite;
     margin: 2px;
     padding: 0px;
 }
@@ -17,29 +17,30 @@ a:link {
 nav .link {
     position: fixed;
     background-color: cadetblue;
-    width: 1120px;
+    width: 1500px;
     justify-content: center;
     display: flex;
     padding: 16px;
     margin-top: 0;
     margin-bottom: 2px;
     list-style-type: none;
-    gap: 70px;
+    gap: 100px;
 }
-link { 
+.link { 
     display: flex;
     list-style: none;
-    gap: 70px;
+    gap: 100px;
+    font-size: larger;
 }
 .form-container {
-    background-color: cornsilk;
+    background-color: blanchedalmond;
     max-width: 400px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
     line-height: 40px;
-    margin-bottom: 2opx;
+    margin-bottom: 20px;
 }
 label {
     display: block;
@@ -55,16 +56,41 @@ input ,select, textarea {
     box-sizing: border-box;
 }
 button {
-    width: 100%;
+    width:90%;
     padding: 12px;
-    background-color: darkslategray;
-    color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
 }
-button:hover {
-    background-color: darkslategray;
+.container{
+    display: flex;
+    gap: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.cont{
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    gap: 5px;
+
+} 
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.whatsapp-link img {
+    width: 50px;
+}
+footer {
+   /* background-color: black;
+    color: white;*/
+    text-align: center;
+    padding: 15px;
 }
