@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background-color: floralwhite;
 }
 a:link {
@@ -16,7 +16,7 @@ a:link {
 nav .link {
     position: fixed;
     background-color: cadetblue;
-    width: 1250px;
+    width: 1700px;
     justify-content: center;
     display: flex;
     padding: 16px;
@@ -51,9 +51,48 @@ nav .link {
 .gallery-item img:hover {
     transform: scale(1.05);
 }
-footer {
+#pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;;
+}
+.pics {
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.pics img:hover {
+    transform: scale(1.05);
+}
+.container{
+    display: flex;
+    gap: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: black;
     color: white;
+    padding-bottom: 20px;
     text-align: center;
-    padding: 0px;
+}
+.cont{
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+} 
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    color: green;
+}
+.whatsapp-link img {
+    width: 50px;
+}
+footer {
+   /* background-color: black;
+    color: white;*/
+    text-align: center;
+    padding: 50px;
 }
